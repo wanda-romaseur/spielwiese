@@ -2,7 +2,7 @@
 
 ## Aktuelles
 
-<iframe src="https://t.me/s/htzzftiggugfgghg/?embed=1" width="506" height="400" frameborder="0"></iframe>
+<script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-discussion="s" data-comments-limit="5"></script>
 
 ## Feed 
 
@@ -26,6 +26,8 @@
   }
   fetchTelegramRSS();
 </script>
+
+https://t.me/s/htzzftiggugfgghg
 
 ## Geistiges intuitives Heilen<br/>Module 1, 2 und 3
 

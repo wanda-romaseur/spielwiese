@@ -2,10 +2,14 @@
 
 ## Aktuelles
 
+<iframe src="https://t.me/s/htzzftiggugfgghg/?embed=1" width="506" height="400" frameborder="0"></iframe>
+
+## Feed 
+
 <div id="telegram-feed"></div>
 <script>
   async function fetchTelegramRSS() {
-    const response = await fetch("https://t.me/s/htzzftiggugfgghg/rss"); // Consider using a CORS proxy if needed
+    const response = await fetch("https://t.me/s/htzzftiggugfgghg/rss");
     const data = await response.text();
     const parser = new DOMParser();
     const rss = parser.parseFromString(data, "application/xml");
